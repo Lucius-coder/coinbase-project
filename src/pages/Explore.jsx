@@ -186,14 +186,10 @@ export default function ExplorePage() {
           />
         </div>
       </div>
-      <div className="grid-cols-3">
-      <div className="col-span-2">
-     <CtaBanner/>
-      </div>
-      <div className="col-span-1">
-      </div>
-      </div>
+      <div className=" absolute left-[-100px]">
       
+      <CtaBanner/>
+      </div> 
     </div>
   );
 }

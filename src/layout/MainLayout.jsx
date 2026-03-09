@@ -7,7 +7,10 @@ const MainLayout = () => {
     <>
       <Navbar />
       {/* Outlet marks where the child pages will appear */}
+      <div>
+      
       <Outlet /> 
+      </div>
       <Footer />
     </>
   );

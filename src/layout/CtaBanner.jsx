@@ -6,7 +6,7 @@ const CtaBanner = ({
 }) => {
   return (
     <div 
-      className="float-left bg-[#0052ff]  scale-75 p-6 grid grid-cols-3 items-center  overflow"
+      className="ml-0 bg-[#0052ff]  scale-75 p-6 grid grid-cols-3 items-center"
       
     >
       {/* Left Content */}
